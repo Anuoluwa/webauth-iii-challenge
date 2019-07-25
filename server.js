@@ -8,7 +8,7 @@ server.use(express.json());
 server.use('/api', router);
 
 server.get('/', (req, res) => {
-  res.json('<h2>Welcome AUTH API </h2>');
+  res.json('Welcome AUTH API');
 });
 
 server.all('*', (req, res) => {
